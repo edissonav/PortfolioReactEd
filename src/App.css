@@ -92,7 +92,7 @@ opacity: 1;
   
  padding: 1rem;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 10%;
   left: 0;
   right: 0;
@@ -162,7 +162,7 @@ video {
 }
 .text-about-me{
   background-image: none;
-  z-index: 10;
+  z-index: 0.5;
 }
 .portfolio{
   display: grid;
