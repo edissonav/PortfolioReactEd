@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import Profileimg from '../assets/img/foto de perfil.jpg'
 
 const NavBar = () => {
     const [theme, setTheme]=useState('dark')
@@ -37,7 +38,7 @@ const NavBar = () => {
                     </Nav>
                     <Nav>
                         <Nav.Item onClick={()=>Toggletheme()}><box-icon name='sun'></box-icon></Nav.Item>
-                        <Nav.Item><img className='img' src='/src/assets/img/foto de perfil.jpg' /></Nav.Item>
+                        <Nav.Item><img className='img' src={Profileimg} /></Nav.Item>
                     </Nav>
                     
                 </Navbar.Collapse>
