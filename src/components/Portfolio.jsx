@@ -11,6 +11,9 @@ import reactcitasapp1 from '../assets/img/portfolioimgs/reactcitasapp1.png'
 import jsecommerce1 from '../assets/img/portfolioimgs/jsecommerce1.png'
 import jsecommerce2 from '../assets/img/portfolioimgs/jsecommerce2.png'
 import jsportfoliosimple1 from '../assets/img/portfolioimgs/jsportfoliosimple1.png'
+import apiecommercenode from '../assets/img/portfolioimgs/apiecommercenode.png'
+import apiecommercenode2 from '../assets/img/portfolioimgs/apiecommercenode2.png'
+import apiecommercenode3 from '../assets/img/portfolioimgs/apiecommercenode3.png'
 
 
 
@@ -131,6 +134,27 @@ const Portfolio = () => {
   <img className='img-portfolio' src={jsportfoliosimple1} alt="" />
   <div className="card-body">
     <p className="card-text">It is a simple web format with a light interface and css layout which can be used as a base for building with Html5 and Css. was developed with Javascript, Css</p>
+  </div>
+  <div className="card-footer text-muted">
+    Click Here and Go There
+  </div>
+</div>
+
+</NavLink>
+
+<NavLink className='link' href="https://github.com/edissonav/ecommerce_node">
+<div className="card mb-3">
+  <h3 className="card-header">Ecommerce with Node.js</h3>
+  
+  <img className='img-portfolio' src={apiecommercenode} alt="" />
+  <br />
+  <img className='img-portfolio2' src={apiecommercenode2} alt="" />
+  <br />
+  <img className='img-portfolio2' src={apiecommercenode3} alt="" />
+  <br />
+
+  <div className="card-body">
+    <p className="card-text">It is a backend application with a simple interface  in which you can find a server complete with documentation to provide all neccesary for a ecommerce. was developed with Node.js</p>
   </div>
   <div className="card-footer text-muted">
     Click Here and Go There
