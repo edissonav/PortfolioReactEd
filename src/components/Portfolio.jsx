@@ -14,6 +14,7 @@ import jsportfoliosimple1 from '../assets/img/portfolioimgs/jsportfoliosimple1.p
 import apiecommercenode from '../assets/img/portfolioimgs/apiecommercenode.png'
 import apiecommercenode2 from '../assets/img/portfolioimgs/apiecommercenode2.png'
 import apiecommercenode3 from '../assets/img/portfolioimgs/apiecommercenode3.png'
+import resumidor from '../assets/img/portfolioimgs/resumidor.jpeg'
 
 
 
@@ -155,6 +156,23 @@ const Portfolio = () => {
 
   <div className="card-body">
     <p className="card-text">It is a backend application with a simple interface  in which you can find a server complete with documentation to provide all neccesary for a ecommerce. was developed with Node.js</p>
+  </div>
+  <div className="card-footer text-muted">
+    Click Here and Go There
+  </div>
+</div>
+
+</NavLink>
+<NavLink className='link' href="https://resumidoria.netlify.app/">
+<div className="card mb-3">
+  <h3 className="card-header">Resumidor de articulos y web con React.js</h3>
+  
+  <img className='img-portfolio' src={resumidor} alt="" />
+  <br />
+  
+
+  <div className="card-body">
+    <p className="card-text">It is an application with a simple interface related with IA in which you can summarize some article or any web with text. </p>
   </div>
   <div className="card-footer text-muted">
     Click Here and Go There
