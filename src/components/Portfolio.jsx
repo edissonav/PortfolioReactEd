@@ -15,12 +15,38 @@ import apiecommercenode from '../assets/img/portfolioimgs/apiecommercenode.png'
 import apiecommercenode2 from '../assets/img/portfolioimgs/apiecommercenode2.png'
 import apiecommercenode3 from '../assets/img/portfolioimgs/apiecommercenode3.png'
 import resumidor from '../assets/img/portfolioimgs/resumidor.jpeg'
+import carsapp1 from '../assets/img/portfolioimgs/carsapp1.jpeg'
+import carsapp2 from '../assets/img/portfolioimgs/carsapp2.jpeg'
+import carsapp3 from '../assets/img/portfolioimgs/carsapp3.jpeg'
 
 
 
 const Portfolio = () => {
     return (
         <div className='portfolio'>
+
+<NavLink className='link' href="https://carsappedisson.netlify.app/">
+<div className="card mb-3">
+  <h3 className="card-header">Cars Shop con React.js</h3>
+  
+  <img className='img-portfolio' src={carsapp1} alt="" />
+  <br />
+  <img className='img-portfolio' src={carsapp2} alt="" />
+  <br />
+  <img className='img-portfolio' src={carsapp3} alt="" />
+  <br />
+  
+
+  <div className="card-body">
+    <p className="card-text">Is an application  a complex and developed interface related with a chat-IA and Apis, And working like a virtual assitant in which you can buy any car on any form Cash, 
+    Bank, or scheduled purchase was developed with React.js Node.js Html and Animations with Css </p>
+  </div>
+  <div className="card-footer text-muted">
+    Click Here and Go There
+  </div>
+</div>
+
+</NavLink>
 <NavLink className='link' href="https://final-ecommerce-with-react.netlify.app">
 <div className="card mb-3">
   <h3 className="card-header">E-commerce with React.js</h3>
@@ -180,6 +206,7 @@ const Portfolio = () => {
 </div>
 
 </NavLink>
+
         </div>
     );
 };
