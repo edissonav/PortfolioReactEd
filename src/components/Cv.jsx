@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pdf from '../assets/docs/CurriculumEdissonProgramacion.pdf'
+import Pdf from '../assets/docs/Curriculum Edisson Avila ingles.pdf'
 
 class Cv extends Component {
 componentDidMount() {

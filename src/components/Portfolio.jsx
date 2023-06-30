@@ -18,12 +18,39 @@ import resumidor from '../assets/img/portfolioimgs/resumidor.jpeg'
 import carsapp1 from '../assets/img/portfolioimgs/carsapp1.jpeg'
 import carsapp2 from '../assets/img/portfolioimgs/carsapp2.jpeg'
 import carsapp3 from '../assets/img/portfolioimgs/carsapp3.jpeg'
+import dashboard1 from '../assets/img/portfolioimgs/dashboard1.png'
+import dashboard2 from '../assets/img/portfolioimgs/dashboard2.png'
+import dashboard3 from '../assets/img/portfolioimgs/dashboard3.png'
+import dashboard4 from '../assets/img/portfolioimgs/dashboard4.png'
+
+
 
 
 
 const Portfolio = () => {
     return (
         <div className='portfolio'>
+          <NavLink className='link' href="https://eddy-resto-dashboard.netlify.app/">
+<div className="card mb-3">
+  <h3 className="card-header">Dashboard for a Store developed with React.js and Tailwind.css competly responsive</h3>
+  
+  <img className='img-portfolio' src={dashboard1} alt="" />
+  <img className='img-portfolio' src={dashboard2} alt="" />
+  <img className='img-portfolio' src={dashboard3} alt="" />
+  <img className='img-portfolio' src={dashboard4} alt="" />
+
+  <br />
+  
+
+  <div className="card-body">
+    <p className="card-text">It is an application with a totally responsive design, creative and very applicable for many projects </p>
+  </div>
+  <div className="card-footer text-muted">
+    Click Here and Go There
+  </div>
+</div>
+
+</NavLink>
 
 <NavLink className='link' href="https://carsappedisson.netlify.app/">
 <div className="card mb-3">
