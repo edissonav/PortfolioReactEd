@@ -22,6 +22,12 @@ import dashboard1 from '../assets/img/portfolioimgs/dashboard1.png'
 import dashboard2 from '../assets/img/portfolioimgs/dashboard2.png'
 import dashboard3 from '../assets/img/portfolioimgs/dashboard3.png'
 import dashboard4 from '../assets/img/portfolioimgs/dashboard4.png'
+import rental1 from '../assets/img/portfolioimgs/rentalapp1.png'
+import rental2 from '../assets/img/portfolioimgs/rentalapp2.png'
+import rental3 from '../assets/img/portfolioimgs/rentalapp3.png'
+import rental4 from '../assets/img/portfolioimgs/rentalapp4.png'
+
+
 
 
 
@@ -30,6 +36,27 @@ import dashboard4 from '../assets/img/portfolioimgs/dashboard4.png'
 const Portfolio = () => {
     return (
         <div className='portfolio'>
+          <NavLink className='link' href="https://car-rental-template-edd.netlify.app/home">
+<div className="card mb-3">
+  <h3 className="card-header">App developed for a carrental  with React.js and css3 competly responsive</h3>
+  
+  <img className='img-portfolio' src={rental1} alt="" />
+  <img className='img-portfolio' src={rental2} alt="" />
+  <img className='img-portfolio' src={rental3} alt="" />
+  <img className='img-portfolio' src={rental4} alt="" />
+
+  <br />
+  
+
+  <div className="card-body">
+    <p className="card-text">It is an application with a totally responsive design, creative and very applicable for many projects </p>
+  </div>
+  <div className="card-footer text-muted">
+    Click Here and Go There
+  </div>
+</div>
+
+</NavLink>
           <NavLink className='link' href="https://eddy-resto-dashboard.netlify.app/">
 <div className="card mb-3">
   <h3 className="card-header">Dashboard for a Store developed with React.js and Tailwind.css competly responsive</h3>
